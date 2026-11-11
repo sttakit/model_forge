@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b08">
+  <title>MODEL FORGE — Autonomous ML Workspace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="MODEL FORGE, главная"><span class="brand-mark">⌁</span><span>MODEL FORGE</span></a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <button class="nav-link active" data-page="home">Главная</button>
+      <button class="nav-link" data-page="projects">Проекты</button>
+      <button class="nav-link" data-page="data">Данные</button>
+      <button class="nav-link" data-page="runs">Запуски</button>
+      <button class="nav-link" data-page="profile">Профиль</button>
+    </nav>
+    <div class="top-actions"><button class="icon-btn" aria-label="Уведомления" title="Уведомления">⌁<i class="notification-dot"></i></button><button class="avatar" data-page="profile" aria-label="Открыть профиль" title="Профиль аккаунта">K</button></div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
